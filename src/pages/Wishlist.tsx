@@ -16,7 +16,7 @@ import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 import Rating from "../components/ui/Rating";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 interface WishlistItem {
   bookId: string;
